@@ -6,7 +6,7 @@ const cors = require("cors")
 app.use(cors());
 
 app.use(express.json());
-app.use("/transaction", transactions);
+app.use("/transactions", transactions);
 
 app.get("/", (req, res) => {
   res.send("Hello World!!");
