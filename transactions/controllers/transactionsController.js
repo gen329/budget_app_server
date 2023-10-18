@@ -34,5 +34,15 @@ transactions.delete("/:arrayIndex", (req,res) => {
     }
 })
 
+  transactions.put(":/arrayIndex", (req,res) => {
+      const { arrayIndex } = req.params
+      if (transactionsData[arrayIndex]){
+          transactionsData[arrayIndex] = req.body
+          res.status(200).json((transactionsData[arrayIndex]))
+      } else {
+          res.status(400).json({error: "Could not find transaction to be updated!"})
+      }
+  })
+
 
 module.exports = transactions;
