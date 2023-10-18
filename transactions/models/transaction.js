@@ -6,5 +6,5 @@ module.exports = [
     date: "10/17/2023",
     from: "Home Goods",
     category: "home decor",
-  }
+  },
 ]
