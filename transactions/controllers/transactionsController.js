@@ -24,4 +24,15 @@ transactions.post("/", (req, res) => {
   res.status(200).json({ status: "OK", payload: transactionsData[transactionsData.length - 1] })
 })
 
+transactions.delete("/:arrayIndex", (req,res) => {
+    const { arrayIndex } = req.params
+    if (transactionsData[arrayIndex]){
+        const deletedTransaction = transactionsData.splice(arrayIndex, 1)
+        res.status(200).json(deletedTransaction[0])
+    } else { 
+        res.status(404).json({error: "Could not find transaction to delete!"})
+    }
+})
+
+
 module.exports = transactions;
