@@ -3,7 +3,7 @@ module.exports = [
     id: 136,
     item_name: "Salary",
     amount: 5000,
-    date: "2023-10-18'",
+    date: "2023-10-14",
     transaction_from: "Employer",
     category: "Income",
   },
@@ -12,6 +12,7 @@ module.exports = [
     item_name: "Groceries",
     amount: 300,
     transaction_from: "Groceries",
+    date: "2023-10-15",
     category: "Food",
   },
   {
@@ -19,6 +20,7 @@ module.exports = [
     item_name: "Savings",
     amount: 1000,
     transaction_from: "Bank",
+    date: "2023-10-16",
     category: "Savings",
   },
   {
@@ -26,6 +28,7 @@ module.exports = [
     item_name: "Utilities",
     amount: 150,
     transaction_from: "Con Ed",
+    date: "2023-10-15",
     category: "Expenses",
   },
 {
@@ -33,6 +36,7 @@ module.exports = [
     item_name: "Pet Food",
     amount: 30,
     transaction_from: "Pet Store",
+    date: "2023-10-15",
     category: "Pets",
   },
 {
@@ -40,6 +44,7 @@ module.exports = [
     item_name: "Rent",
     amount: 1500,
     transaction_from: "Landlord",
+    date: "2023-10-14",
     category: "Housing",
   },
 ]
