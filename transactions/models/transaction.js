@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 136,
-    item_name: "Salary",
+    item_name: "Direct Deposit",
     amount: 5000,
     date: "2023-10-14",
     transaction_from: "Employer",
@@ -11,7 +11,7 @@ module.exports = [
     id: 137,
     item_name: "Groceries",
     amount: 300,
-    transaction_from: "Groceries",
+    transaction_from: "Shop Rite",
     date: "2023-10-15",
     category: "Food",
   },
@@ -19,7 +19,7 @@ module.exports = [
     id: 138,
     item_name: "Savings",
     amount: 1000,
-    transaction_from: "Bank",
+    transaction_from: "Chase Bank",
     date: "2023-10-16",
     category: "Savings",
   },
